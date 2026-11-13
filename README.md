@@ -2,10 +2,9 @@
 
 ## 部署
 
-1. 在 GitHub 建立一個 **Public** repository。
-2. 將此資料夾內的所有檔案上傳至 repository 根目錄，主要入口為 `index.html`。
-3. 推送到 `main` 分支後，`Actions` 會嘗試啟用 Pages 並自動部署靜態網站。
-4. 若 GitHub 權限不允許 workflow 自動啟用，請到 repository 的 **Settings → Pages**，選擇 **GitHub Actions** 作為部署來源，然後重新執行 workflow。
+1. GitHub Pages workflow 會發布 `site/` 目錄，桌面／響應式入口為 `site/index.html`，手機優先頁面為 `site/mobile.html`。
+2. 推送 `site/` 變更到 `main` 後，`Actions` 會自動部署靜態網站。
+3. 若 GitHub 權限不允許 workflow 自動啟用，請到 repository 的 **Settings → Pages**，選擇 **GitHub Actions** 作為部署來源，然後重新執行 workflow。
 
 ## 公開版範圍
 
@@ -14,6 +13,7 @@
 - 公開版客服會使用 FAQ 示範回覆。GitHub Pages 不會連到開發者電腦上的 Ollama；本機 Qwen 只在本機 `start-local-ai.bat` 伺服器啟動時可用。
 - 正式公開 AI 客服需要可公開連線的後端（例如 Cloud Run），並需設定 HTTPS、存取控制、限流、成本告警及隱私政策。不要把 Ollama 的 11434 埠直接公開。
 - 商品分類參考小北官方公司簡介；商品名稱、價格與庫存數量為企劃展示資料，不是正式銷售資料。
+- 手機版網址：`https://qian03777.github.io/test/mobile.html`；完整網站仍是 `https://qian03777.github.io/test/`。
 
 ## Google 帳號與 Cloud SQL 後端（尚待 GCP 專案）
 

@@ -1,0 +1,446 @@
+[
+  {
+    "id": "laundry",
+    "name": "洗衣精",
+    "icon": "🧴",
+    "price": 129,
+    "category": "清潔洗衣",
+    "aisle": "B 區・02 貨架",
+    "description": "日常衣物清潔，補貨前先查附近庫存。",
+    "keywords": "洗衣 洗衣精 清潔衣物",
+    "themes": [
+      "laundry",
+      "rental"
+    ]
+  },
+  {
+    "id": "bath-cleaner",
+    "name": "浴室清潔劑",
+    "icon": "🫧",
+    "price": 89,
+    "category": "浴室清潔",
+    "aisle": "A 區・03 貨架",
+    "description": "對付水垢與日常浴室清潔。",
+    "keywords": "浴室 浴廁 清潔 除霉",
+    "themes": [
+      "bathroom"
+    ]
+  },
+  {
+    "id": "brush",
+    "name": "縫隙清潔刷組",
+    "icon": "🪥",
+    "price": 59,
+    "category": "清潔工具",
+    "aisle": "A 區・05 貨架",
+    "description": "刷洗磁磚縫隙與難清角落。",
+    "keywords": "浴室 刷具 清潔 刷子",
+    "themes": [
+      "bathroom"
+    ]
+  },
+  {
+    "id": "bath-basket",
+    "name": "壁掛收納籃",
+    "icon": "🧺",
+    "price": 99,
+    "category": "居家收納",
+    "aisle": "C 區・02 貨架",
+    "description": "洗沐用品收納，讓浴室檯面更清爽。",
+    "keywords": "浴室 收納 租屋",
+    "themes": [
+      "bathroom",
+      "rental"
+    ]
+  },
+  {
+    "id": "storage",
+    "name": "多功能收納箱",
+    "icon": "🗃️",
+    "price": 149,
+    "category": "居家收納",
+    "aisle": "C 區・01 貨架",
+    "description": "小空間分類收納，租屋整理好幫手。",
+    "keywords": "收納 租屋 整理 箱子",
+    "themes": [
+      "rental"
+    ]
+  },
+  {
+    "id": "hooks",
+    "name": "無痕掛勾組",
+    "icon": "🪝",
+    "price": 49,
+    "category": "居家五金",
+    "aisle": "D 區・04 貨架",
+    "description": "免鑽孔掛放日常用品。",
+    "keywords": "租屋 掛勾 收納",
+    "themes": [
+      "rental"
+    ]
+  },
+  {
+    "id": "desk-lamp",
+    "name": "LED 夾燈",
+    "icon": "💡",
+    "price": 199,
+    "category": "照明用品",
+    "aisle": "B 區・02 貨架",
+    "description": "租屋桌面補光，夾取安裝方便。",
+    "keywords": "租屋 桌燈 照明 開學",
+    "themes": [
+      "rental",
+      "campus"
+    ]
+  },
+  {
+    "id": "umbrella",
+    "name": "輕便折疊傘",
+    "icon": "☂️",
+    "price": 179,
+    "category": "雨具用品",
+    "aisle": "E 區・01 貨架",
+    "description": "通勤與外出隨身雨天備品。",
+    "keywords": "雨天 雨傘 下雨 出門",
+    "themes": [
+      "rainy"
+    ]
+  },
+  {
+    "id": "rain-cover",
+    "name": "防水收納袋",
+    "icon": "👜",
+    "price": 69,
+    "category": "收納用品",
+    "aisle": "C 區・04 貨架",
+    "description": "雨天保護隨身物品，分類更方便。",
+    "keywords": "雨天 防水 收納",
+    "themes": [
+      "rainy"
+    ]
+  },
+  {
+    "id": "stationery",
+    "name": "開學文具組",
+    "icon": "✏️",
+    "price": 99,
+    "category": "文具用品",
+    "aisle": "F 區・02 貨架",
+    "description": "開學與宿舍生活常用文具。",
+    "keywords": "開學 文具 學生 宿舍",
+    "themes": [
+      "campus"
+    ]
+  },
+  {
+    "id": "laundry-bag",
+    "name": "細網洗衣袋",
+    "icon": "🧺",
+    "price": 45,
+    "category": "洗衣用品",
+    "aisle": "C 區・03 貨架",
+    "description": "宿舍洗衣與細緻衣物整理。",
+    "keywords": "洗衣 宿舍 租屋",
+    "themes": [
+      "laundry",
+      "campus"
+    ]
+  },
+  {
+    "id": "lunchbox",
+    "name": "輕巧餐盒",
+    "icon": "🍱",
+    "price": 119,
+    "category": "廚房用品",
+    "aisle": "G 區・01 貨架",
+    "description": "上班上課自備餐食更方便。",
+    "keywords": "餐盒 上班 學生 開學",
+    "themes": [
+      "campus",
+      "dorm"
+    ]
+  },
+  {
+    "id": "warmer",
+    "name": "暖暖包",
+    "icon": "♨️",
+    "price": 79,
+    "category": "冬季保暖",
+    "aisle": "H 區・01 貨架",
+    "description": "寒流與冬季外出保暖小物。",
+    "keywords": "冬天 冬季 防寒 保暖 暖暖包 寒流",
+    "themes": [
+      "winter"
+    ]
+  },
+  {
+    "id": "warm-gloves",
+    "name": "保暖手套",
+    "icon": "🧤",
+    "price": 129,
+    "category": "冬季保暖",
+    "aisle": "H 區・02 貨架",
+    "description": "通勤外出時的冬季保暖配件。",
+    "keywords": "冬天 冬季 防寒 保暖 手套",
+    "themes": [
+      "winter"
+    ]
+  },
+  {
+    "id": "warm-blanket",
+    "name": "輕暖毯",
+    "icon": "🧣",
+    "price": 249,
+    "category": "冬季寢居",
+    "aisle": "H 區・03 貨架",
+    "description": "宿舍與居家冬季保暖用品。",
+    "keywords": "冬天 冬季 保暖 毯子 寢具",
+    "themes": [
+      "winter",
+      "dorm"
+    ]
+  },
+  {
+    "id": "mini-cooker",
+    "name": "宿舍快煮鍋",
+    "icon": "🍲",
+    "price": 499,
+    "category": "小型家電",
+    "aisle": "I 區・01 貨架",
+    "description": "宿舍簡易料理示範商品；購買前請確認宿舍用電與使用規範。",
+    "keywords": "學生 宿舍 快煮鍋 電鍋 開學 小家電",
+    "themes": [
+      "dorm",
+      "campus"
+    ]
+  },
+  {
+    "id": "hair-dryer",
+    "name": "輕巧吹風機",
+    "icon": "💨",
+    "price": 299,
+    "category": "個人家電",
+    "aisle": "I 區・02 貨架",
+    "description": "宿舍日常整理好收納；使用前請確認宿舍電器規範。",
+    "keywords": "學生 宿舍 吹風機 開學 個人家電",
+    "themes": [
+      "dorm",
+      "campus"
+    ]
+  },
+  {
+    "id": "tissue",
+    "name": "抽取式衛生紙",
+    "icon": "🧻",
+    "price": 89,
+    "category": "生活紙品",
+    "aisle": "J 區・01 貨架",
+    "description": "居家日常紙品示範品項。",
+    "keywords": "衛生紙 紙品 居家 日用品",
+    "themes": [
+      "home-basics",
+      "dorm"
+    ]
+  },
+  {
+    "id": "garbage-bags",
+    "name": "家用垃圾袋",
+    "icon": "🗑️",
+    "price": 59,
+    "category": "家事清潔",
+    "aisle": "J 區・02 貨架",
+    "description": "家庭清潔與垃圾分類用品示範品項。",
+    "keywords": "垃圾袋 清潔 家事 居家",
+    "themes": [
+      "home-basics"
+    ]
+  },
+  {
+    "id": "dish-soap",
+    "name": "洗碗精",
+    "icon": "🧽",
+    "price": 69,
+    "category": "廚房清潔",
+    "aisle": "A 區・06 貨架",
+    "description": "廚房餐具清潔用品示範品項。",
+    "keywords": "洗碗精 廚房 清潔 餐具",
+    "themes": [
+      "kitchen",
+      "home-basics"
+    ]
+  },
+  {
+    "id": "hand-wash",
+    "name": "洗手乳",
+    "icon": "🧴",
+    "price": 79,
+    "category": "個人清潔",
+    "aisle": "A 區・01 貨架",
+    "description": "居家日常個人清潔用品示範品項。",
+    "keywords": "洗手乳 個人清潔 肥皂",
+    "themes": [
+      "home-basics"
+    ]
+  },
+  {
+    "id": "batteries",
+    "name": "三號電池",
+    "icon": "🔋",
+    "price": 69,
+    "category": "家庭五金",
+    "aisle": "D 區・01 貨架",
+    "description": "家中常備電池示範品項。",
+    "keywords": "電池 電器 五金 生活應急",
+    "themes": [
+      "hardware",
+      "home-basics"
+    ]
+  },
+  {
+    "id": "screwdriver",
+    "name": "家用螺絲起子組",
+    "icon": "🪛",
+    "price": 129,
+    "category": "家庭五金",
+    "aisle": "D 區・02 貨架",
+    "description": "居家簡易修繕工具示範品項。",
+    "keywords": "螺絲起子 工具 五金 修繕",
+    "themes": [
+      "hardware",
+      "rental"
+    ]
+  },
+  {
+    "id": "led-bulb",
+    "name": "LED 燈泡",
+    "icon": "💡",
+    "price": 99,
+    "category": "電器照明",
+    "aisle": "I 區・03 貨架",
+    "description": "居家照明替換示範品項；規格與電壓以實際商品標示為準。",
+    "keywords": "燈泡 LED 照明 電器",
+    "themes": [
+      "hardware",
+      "rental"
+    ]
+  },
+  {
+    "id": "extension-cord",
+    "name": "延長線",
+    "icon": "🔌",
+    "price": 249,
+    "category": "電器照明",
+    "aisle": "I 區・04 貨架",
+    "description": "示範家用電器配件；選購與使用請確認商品安規及宿舍規定。",
+    "keywords": "延長線 插座 電器 宿舍",
+    "themes": [
+      "dorm",
+      "hardware"
+    ]
+  },
+  {
+    "id": "notebook",
+    "name": "橫線筆記本",
+    "icon": "📓",
+    "price": 35,
+    "category": "文具用品",
+    "aisle": "F 區・01 貨架",
+    "description": "上課與日常記錄文具示範品項。",
+    "keywords": "筆記本 文具 開學 學生",
+    "themes": [
+      "campus"
+    ]
+  },
+  {
+    "id": "toy-blocks",
+    "name": "益智積木",
+    "icon": "🧸",
+    "price": 159,
+    "category": "玩具用品",
+    "aisle": "F 區・05 貨架",
+    "description": "親子休閒與益智玩具示範品項。",
+    "keywords": "玩具 積木 益智 親子",
+    "themes": [
+      "family"
+    ]
+  },
+  {
+    "id": "pet-wipes",
+    "name": "寵物清潔濕巾",
+    "icon": "🐾",
+    "price": 99,
+    "category": "寵物用品",
+    "aisle": "K 區・01 貨架",
+    "description": "寵物日常清潔用品示範品項。",
+    "keywords": "寵物 清潔 濕巾 狗 貓",
+    "themes": [
+      "pet"
+    ]
+  },
+  {
+    "id": "pet-pads",
+    "name": "寵物尿墊",
+    "icon": "🐶",
+    "price": 169,
+    "category": "寵物用品",
+    "aisle": "K 區・02 貨架",
+    "description": "寵物居家照護用品示範品項。",
+    "keywords": "寵物 尿墊 狗 貓 居家",
+    "themes": [
+      "pet"
+    ]
+  },
+  {
+    "id": "car-wipes",
+    "name": "車用清潔布",
+    "icon": "🚗",
+    "price": 79,
+    "category": "汽車精品",
+    "aisle": "L 區・01 貨架",
+    "description": "車內日常清潔與擦拭用品示範品項。",
+    "keywords": "汽車 車用 清潔 擦拭",
+    "themes": [
+      "auto"
+    ]
+  },
+  {
+    "id": "car-holder",
+    "name": "車用手機支架",
+    "icon": "📱",
+    "price": 199,
+    "category": "汽車精品",
+    "aisle": "L 區・02 貨架",
+    "description": "車用配件示範品項，安裝位置需符合行車安全。",
+    "keywords": "汽車 車用 手機支架 配件",
+    "themes": [
+      "auto"
+    ]
+  },
+  {
+    "id": "instant-noodle",
+    "name": "即食麵",
+    "icon": "🍜",
+    "price": 39,
+    "category": "飲料餅乾／食品",
+    "aisle": "M 區・01 貨架",
+    "description": "日常食品補給示範品項。",
+    "keywords": "泡麵 即食 食品 飲料餅乾",
+    "themes": [
+      "pantry",
+      "dorm"
+    ]
+  },
+  {
+    "id": "asean-snack",
+    "name": "東南亞風味零食",
+    "icon": "🥨",
+    "price": 59,
+    "category": "東南亞食品",
+    "aisle": "M 區・02 貨架",
+    "description": "東南亞食品類別示範品項；實際品牌與品項依門市為準。",
+    "keywords": "東南亞 食品 零食 進口",
+    "themes": [
+      "pantry"
+    ]
+  }
+]
