@@ -4,8 +4,8 @@
 
 1. 在 GitHub 建立一個 **Public** repository。
 2. 將此資料夾內的所有檔案上傳至 repository 根目錄，主要入口為 `index.html`。
-3. 推送到 `main` 分支後，`Actions` 會自動將靜態網站部署到 GitHub Pages。
-4. 若首次部署未啟用，請到 repository 的 **Settings → Pages**，選擇 **GitHub Actions** 作為部署來源。
+3. 推送到 `main` 分支後，`Actions` 會嘗試啟用 Pages 並自動部署靜態網站。
+4. 若 GitHub 權限不允許 workflow 自動啟用，請到 repository 的 **Settings → Pages**，選擇 **GitHub Actions** 作為部署來源，然後重新執行 workflow。
 
 ## 公開版範圍
 
