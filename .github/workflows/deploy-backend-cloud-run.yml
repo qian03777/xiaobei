@@ -1,0 +1,41 @@
+name: Deploy orders API to Google Cloud Run
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  id-token: write
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - id: auth
+        uses: google-github-actions/auth@v2
+        with:
+          workload_identity_provider: ${{ secrets.GCP_WIF_PROVIDER }}
+          service_account: ${{ secrets.GCP_DEPLOY_SERVICE_ACCOUNT }}
+      - uses: google-github-actions/setup-gcloud@v2
+        with:
+          project_id: ${{ vars.GCP_PROJECT_ID }}
+      - name: Deploy Cloud Run API
+        env:
+          PROJECT_ID: ${{ vars.GCP_PROJECT_ID }}
+          REGION: ${{ vars.GCP_REGION }}
+          SERVICE: ${{ vars.CLOUD_RUN_SERVICE }}
+          GOOGLE_CLIENT_ID: ${{ vars.GOOGLE_CLIENT_ID }}
+          INSTANCE_CONNECTION_NAME: ${{ vars.INSTANCE_CONNECTION_NAME }}
+          DB_NAME: ${{ vars.DB_NAME }}
+          DB_USER: ${{ vars.DB_USER }}
+          WEB_ORIGIN: ${{ vars.WEB_ORIGIN }}
+        run: |
+          gcloud run deploy "${SERVICE:-xiaobei-orders-api}" \
+            --source . \
+            --project "$PROJECT_ID" \
+            --region "${REGION:-asia-east1}" \
+            --allow-unauthenticated \
+            --cpu 1 --memory 512Mi --max 1 --concurrency 20 \
+            --set-env-vars "GOOGLE_CLIENT_ID=$GOOGLE_CLIENT_ID,INSTANCE_CONNECTION_NAME=$INSTANCE_CONNECTION_NAME,DB_NAME=$DB_NAME,DB_USER=$DB_USER,ALLOWED_ORIGINS=$WEB_ORIGIN" \
+            --set-secrets "DB_PASSWORD=db-password:latest,QR_SIGNING_SECRET=qr-signing-secret:latest"
