@@ -13,7 +13,7 @@
 - 公開版客服會使用 FAQ 示範回覆。GitHub Pages 不會連到開發者電腦上的 Ollama；本機 Qwen 只在本機 `start-local-ai.bat` 伺服器啟動時可用。
 - 正式公開 AI 客服需要可公開連線的後端（例如 Cloud Run），並需設定 HTTPS、存取控制、限流、成本告警及隱私政策。不要把 Ollama 的 11434 埠直接公開。
 - 商品分類參考小北官方公司簡介；商品名稱、價格與庫存數量為企劃展示資料，不是正式銷售資料。
-- 手機版網址：`https://qian03777.github.io/test/mobile.html`；完整網站仍是 `https://qian03777.github.io/test/`。
+- 手機版網址：`https://qian03777.github.io/xiaobei/mobile.html`；完整網站仍是 `https://qian03777.github.io/xiaobei/`。
 
 ## Google 帳號與 Cloud SQL 後端（尚待 GCP 專案）
 
